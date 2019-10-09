@@ -14,18 +14,27 @@
     <link rel="apple-touch-icon" href="img/f7-icon-square.png">
     <link rel="icon" href="img/f7-icon.png">
     <link rel="stylesheet" href="css/opmaak.css"> </head>
+    <script src="js/project.js"></script>
 
 <body>
     <div id="app">
+        <div class="view view-main">
         <div class="page-content">
             <!-- IMAGE BOVEN AAN DE PAGINA -->
-            <img src="img/login.png" alt="foto" class="loginFoto">
+            <img src="img/login.png" alt="foto" class="loginFoto" id="imgLogoLoginPagina">
             <!-- INPUT GEGEVENS -->
-            <input type="text" placeholder="LOGIN">
-            <input type="text" placeholder="PASSWORD" id="inptPswdLogin">
-            <label class="container">
-                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="text" placeholder="LOGIN" id="inptLoginLoginPagina">
+            <input type="text" placeholder="PASSWORD" id="inptPswdLoginPagina">
+            <!-- gekopieerd van w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox -->
+            <label class="container">REMEMBER ME
+                <input type="checkbox">
+                <span class="checkmark"></span>
             </label>
+            <button class="col button button-small button-outline" id="btnRegistreerLoginPagina">REGISTER</button>
+            <a href="/registratie/" onclick="registratiePagina()" class="item-link list-button login-button">Create account</a>
+            <button class="col button button-small button-outline" id="btnLoginLoginPagina">LOGIN</button>
+            <button class="col button button-large" id="btnForgotPaswdLoginPagina">FORGOT PASSWORD</button>
+        </div>
         </div>
     </div>
     <script src="../../packages/core/js/framework7.bundle.min.js"></script>
