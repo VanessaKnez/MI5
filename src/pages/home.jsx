@@ -18,6 +18,7 @@ import {
   img
 } from 'framework7-react';
 import loginFoto from '../img/login.png'
+/*import background from '../img.background.jpg'*/
 
 export default () => (
   <Page name="home">
@@ -40,7 +41,7 @@ export default () => (
 
       <Row>
         <a href="/registratie/"><button href="/registratie/" className="col button button-small button-outline" id="btnRegistreerLoginPagina">REGISTER</button></a>
-        <a href="x"><button className="col button button-small button-outline" id="btnLoginLoginPagina">LOGIN</button></a>
+        <a href="/overzQuiz/"><button className="col button button-small button-outline" id="btnLoginLoginPagina">LOGIN</button></a>
         <a href="/wachtVerg/"><button className="col button button-large" id="btnForgotPaswdLoginPagina">FORGOT PASSWORD</button></a>
       </Row>
   </Page>
