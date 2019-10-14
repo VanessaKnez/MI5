@@ -5,7 +5,8 @@ body {
    
 } 
 div.page-content{
-    background-image: linear-gradient(to bottom, #bfbfbf, #404040); 
+    background-image: linear-gradient(to bottom, #bfbfbf, #404040);
+    /*background-image: url(${background});*/
 }
 
 .loginFoto {
@@ -30,7 +31,8 @@ div.page-content{
 }
 
 #inptLoginLoginPagina,
-#inptLoginRegistratiePagina {
+#inptLoginRegistratiePagina,
+#inptEmailAdresWachtwoordVergetenPagina {
     margin-top: 10vh;
 }
 
@@ -129,7 +131,10 @@ div.page-content{
 #btnLoginLoginPagina,
 #btnRegistreerRegistratiePagina,
 #btnCancelRegistratiePagina,
-#btnGoBackGDPRPagina {
+#btnGoBackGDPRPagina,
+#btnWachtwoordVergetenWachtwoordVergetenPagina,
+#btnCancelWachtwoordVergetenPagina,
+#btnCancelOptiesKopenPagina {
     border: 3px solid lightgray;
     width: 30vw;
     height: 4.5vh;
@@ -145,12 +150,14 @@ div.page-content{
 #btnCancelRegistratiePagina,
 #btnGoBackGDPRPagina,
 #btnWachtwoordVergetenWachtwoordVergetenPagina,
-#btnCancelWachtwoordVergetenPagina {
+#btnCancelWachtwoordVergetenPagina,
+#btnCancelOptiesKopenPagina {
     width: 65vw;
     margin-left: 17.5vw;
 }
 
-#btnRegistreerRegistratiePagina {
+#btnRegistreerRegistratiePagina,
+#btnWachtwoordVergetenWachtwoordVergetenPagina {
     margin-top: 6vh;
 }
 
@@ -167,7 +174,8 @@ div.page-content{
     font-size: 12px;
 }
 
-#btnGDPRlink {
+#btnGDPRlink,
+#btnCancelWachtwoordVergetenPagina {
     margin-top: 4vh;
 }
 
@@ -190,6 +198,123 @@ div.page-content{
     margin-top: 12vh;
 }
 
+#btnMixQuizOverzichtQuizPagina,
+#btnYesNoQuizOverzichtQuizPagina,
+#btnImagesQuizOverzichtQuizPagina,
+#btnAddQuestionQuizOverzichtQuizPagina,
+#btnBuyOptionsOverzichtQuizPagina {
+    height: 10vh;
+    width: 40vw;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#btnMixQuizOverzichtQuizPagina,
+#btnImagesQuizOverzichtQuizPagina {
+    float: left;
+    margin-left: 8vw;
+    margin-top: 4vh;
+}
+
+#btnYesNoQuizOverzichtQuizPagina,
+#btnAddQuestionQuizOverzichtQuizPagina {
+    float: right;
+    margin-right: 8vw;
+    margin-top: 4vh;
+}
+
+#btnBuyOptionsOverzichtQuizPagina {
+    margin-top: 15vh;
+    margin-left: 8vw;
+    width: 84vw;
+    border: 2px solid rgb(161, 91, 5);
+    color: rgb(161, 91, 5);
+}
+
+#btnMixQuizOverzichtQuizPagina {
+    border: 2px solid rgb(0, 68, 255);
+    color: rgb(0, 68, 255);
+}
+
+#btnYesNoQuizOverzichtQuizPagina {
+    border: 2px solid rgb(211, 2, 2);
+    color: rgb(211, 2, 2);
+}
+
+#btnImagesQuizOverzichtQuizPagina {
+    border: 2px solid rgb(2, 119, 2);
+    color: rgb(2, 119, 2);
+}
+
+#btnAddQuestionQuizOverzichtQuizPagina {
+    border: 2px solid rgb(110, 3, 110);
+    color: rgb(110, 3, 110);
+}
+
+#btnShieldOptionOptiesKopenPagina,
+#btnThunderOptionOptiesKopenPagina,
+#btnOponentMinus10SecOptionOptiesKopenPagina {
+    height: 8vh;
+    width: 84vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+    border-radius: 8px;
+}
+
+#btnShieldOptionOptiesKopenPagina {
+    margin-top: 10vh;
+    border: 2px solid rgb(0, 77, 0);
+    color: rgb(0, 77, 0);
+    background-color: rgb(69, 192, 69);
+}
+
+#btnThunderOptionOptiesKopenPagina {
+    border: 2px solid rgb(184, 187, 0);
+    color: rgb(184, 187, 0);
+    background-color: rgb(237, 240, 105);
+}
+
+#btnOponentMinus10SecOptionOptiesKopenPagina {
+    border: 2px solid rgb(226, 6, 6);
+    color: rgb(226, 6, 6);
+    background-color: rgb(212, 99, 99);
+}
+
+#btnCancelOptiesKopenPagina {
+    margin-top: 20vh;
+}
+
+#btnProfiel {
+    border: 2.5px solid rgb(57, 57, 109);
+    border-radius: 50px;
+    width: 12%;
+    height: 6.5%;
+    margin-top: 4vh;
+    margin-left: 45vw;
+}
+
 #imgLoginLoginPagina {
     margin-top: 12vh;
+}
+
+#imgStandaardProfielFoto {
+    width: 130%;
+    height: 100%;
+}
+
+#divIdAantalMunten,
+#divLevelVanSpeler {
+    font-weight: bold;
+}
+
+#divIdAantalMunten {
+    float: left;
+    margin-top: 6vh;
+    margin-left: 27vw;
+}
+
+#divLevelVanSpeler {
+    float: right;
+    margin-top: -4.5vh;
+    margin-right: 24vw;
 }
