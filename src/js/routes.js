@@ -9,7 +9,11 @@ import DynamicRoutePage from '../pages/dynamic-route.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
 import Registratie from '../pages/registratie.jsx';
 import GDPR from '../pages/GDPR.jsx';
-import wachtwoordVergeten from '../pages/wachtwoordVergeten.jsx'
+import WachtwoordVergeten from '../pages/wachtwoordVergeten.jsx';
+import OverzQuiz from '../pages/overzichtQuiz.jsx';
+import KoopOpties from '../pages/optiesKopen.jsx';
+import Profiel from '../pages/profiel.jsx';
+import Resultaat from '../pages/resultaat.jsx';
 var routes = [
   {
     path: '/',
@@ -25,7 +29,23 @@ var routes = [
   },
   {
     path: '/wachtVerg/',
-    component: wachtwoordVergeten,
+    component: WachtwoordVergeten,
+  },
+  {
+    path: '/overzQuiz/',
+    component: OverzQuiz,
+  },
+  {
+    path: '/koopOpties/',
+    component: KoopOpties,
+  },
+  {
+    path: '/profiel/',
+    component: Profiel,
+  },
+  {
+    path: '/resultaat/',
+    component: Resultaat,
   },
   {
     path: '/form/',
