@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 3TI (totaal 27h)
+# Logboek Vanessa Knez r0698813 3TI (totaal 33h)
 
 ## week 1 (11h gewerkt)
 
@@ -59,8 +59,24 @@
 * verder werken aan de css
 * pagina's waar ik aan gewerkt heb zijn de wachtwoord vergeten pagina, pagina waar alle soorten quizzen zijn, pagina om nog opties te kopen
 
-## week 4 (xh gewerkt)
+## week 4 (6h gewerkt)
 
 ### 14/10/2019
 * 3h gewerkt
 * verder gewerkt aan de css
+
+### 15/10/2019
+* 3h gewerkt
+* css
+* nieuwe pagina's aangemaakt (profiel, resultaat,...)
+* gekeken hoe je animatie kan zetten als je een spel hebt gewonnen (confetti en sterretjes en dergelijke)
+
+## week 5 (xh gewerkt)
+* 4h30 gewerkt
+* proberen extra js file (op internet gevonden, om confetti te tonen op het scherm --> wanneer gebruiker spel heeft gewonnen) te implementeren
+* uiteindelijk toen de docent er was heb ik gezien dat ik de verkeerde functie aanriep om de confetti te laten starten
+* nadien nog gezocht hoe je de confetti kan laten stoppen na enkele seconden of zelfs als er al 150 confetti blaadjes getoond geweest zijn het nadien te stoppen
+* dit heb ik niet gevonden in de code dus ik ga zelf een timer zetten in de code
+
+https://forum.framework7.io/t/require-import-in-framework7-core/4550
+
