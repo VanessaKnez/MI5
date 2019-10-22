@@ -20,10 +20,10 @@ import {
 import stndrdProfielFoto from '../img/standaarProfielFoto.png'
 
 export default () => (
-  <Page name="home">
+  <Page name="overzichtQuiz">
     {/* Page content */}
     <div id="divIdAantalMunten">COINS</div>
-    <a href="#"><button className="col button button-small button-outline" id="btnProfiel"><img src={stndrdProfielFoto} alt="standaard profiel foto" id="imgStandaardProfielFoto"/></button></a>
+    <a href="/profiel/"><button className="col button button-small button-outline" id="btnProfiel"><img src={stndrdProfielFoto} alt="standaard profiel foto" id="imgStandaardProfielFoto"/></button></a>
     <div id="divLevelVanSpeler">LEVEL x</div>
       <Row>
         <a href="#"><button className="col button button-small button-outline" id="btnMixQuizOverzichtQuizPagina">MIX</button></a>

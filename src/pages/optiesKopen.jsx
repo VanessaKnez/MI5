@@ -19,7 +19,7 @@ import {
 } from 'framework7-react';
 
 export default () => (
-  <Page name="home">
+  <Page name="optiesKopen">
     {/* Page content */}
 
       <Row>

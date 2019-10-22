@@ -34,10 +34,18 @@ export default () => (
       </form>
 
       {/* gekopieerd van w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */}
-      <label className="container">
+      {/*<label className="container">
           <input type="checkbox"/>
           <span className="checkmark"></span> REMEMBER ME
-       </label>
+</label>*/}
+
+      <label class="item-checkbox item-content">
+        <input type="checkbox" name="demo-checkbox" value="Books"></input>
+          <i class="icon icon-checkbox"></i>
+        <div class="item-inner">
+          <div class="item-title">REMEMBER ME</div>
+        </div>
+      </label>
 
       <Row>
         <a href="/registratie/"><button href="/registratie/" className="col button button-small button-outline" id="btnRegistreerLoginPagina">REGISTER</button></a>
