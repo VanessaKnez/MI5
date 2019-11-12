@@ -5,7 +5,7 @@ body {
    
 } 
 div.page-content{
-    background-image: linear-gradient(to bottom, #bfbfbf, #404040);
+    background-image: linear-gradient(to bottom, #000066, #cc0066);
     /*background-image: url(${background});*/
 }
 
@@ -60,73 +60,6 @@ div.page-content{
     color: #d9d9d9;
 }
 
-
-/* The container */
-.container {
-    display: block;
-    position: relative;
-    margin-left: 17.5vw;
-    margin-top: 4vh;
-    font-size: 14px;
-    color: lightgray;
-}
-
-
-/* Hide the browser's default checkbox */
-.container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-
-/* Create a custom checkbox */
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 22px;
-    width: 22px;
-    background-color: transparent;
-    border: 2px solid lightgray;
-    border-radius: 5px;
-}
-
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-    background-color: #2196F3;
-}
-
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-
-/* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
-    display: block;
-}
-
-
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
 #btnRegistreerLoginPagina,
 #btnLoginLoginPagina,
 #btnRegistreerRegistratiePagina,
@@ -134,11 +67,14 @@ div.page-content{
 #btnGoBackGDPRPagina,
 #btnWachtwoordVergetenWachtwoordVergetenPagina,
 #btnCancelWachtwoordVergetenPagina,
-#btnCancelOptiesKopenPagina {
+#btnCancelOptiesKopenPagina,
+#btnNewGameResultaatPagina {
     border: 3px solid lightgray;
     width: 30vw;
     height: 4.5vh;
-    color: lightgray;
+    color: purple;
+    background-color: lightgray;
+    font-weight: bolder;
 }
 
 #btnRegistreerLoginPagina,
@@ -154,7 +90,9 @@ div.page-content{
 #btnCancelOptiesKopenPagina,
 #btnVeranderWachtwoordProfielPagina,
 #btnBewaarWijzigingenProfielPagina,
-#btnCancelProfielPagina {
+#btnCancelProfielPagina,
+#btnGDPRlinkProfielPagina,
+#btnNewGameResultaatPagina {
     width: 65vw;
     margin-left: 17.5vw;
 }
@@ -169,7 +107,10 @@ div.page-content{
 }
 
 #btnGDPRlink,
-#btnForgotPaswdLoginPagina {
+#btnGDPRlinkProfielPagina,
+#btnForgotPaswdLoginPagina,
+#btnGoBackToHomePageResultaatPagina,
+#btnSTARTconfettiResultaatPagina {
     margin-left: 5vw;;
     width: 90vw;
     border: none;
@@ -178,6 +119,7 @@ div.page-content{
 }
 
 #btnGDPRlink,
+#btnGDPRlinkProfielPagina,
 #btnCancelWachtwoordVergetenPagina {
     margin-top: 4vh;
 }
@@ -230,28 +172,37 @@ div.page-content{
     margin-top: 15vh;
     margin-left: 8vw;
     width: 84vw;
-    border: 2px solid rgb(161, 91, 5);
-    color: rgb(161, 91, 5);
+    border: 2px solid rgb(255, 129, 0);
+    background-color: rgb(255, 129, 0);
+    color: rgb(54, 33, 7);
 }
 
 #btnMixQuizOverzichtQuizPagina {
-    border: 2px solid rgb(0, 68, 255);
-    color: rgb(0, 68, 255);
+    border: 2px solid rgb(0, 255, 231);
+    background-color: rgb(0, 255, 231);
+    color: rgb(11, 48, 130);
+    font-size: 15px;
 }
 
 #btnYesNoQuizOverzichtQuizPagina {
-    border: 2px solid rgb(211, 2, 2);
-    color: rgb(211, 2, 2);
+    border: 2px solid rgb(2, 211, 57);
+    background-color: rgb(2, 211, 57);
+    color: rgb(11, 74, 10);
+    font-size: 15px;
 }
 
 #btnImagesQuizOverzichtQuizPagina {
-    border: 2px solid rgb(2, 119, 2);
-    color: rgb(2, 119, 2);
+    border: 2px solid rgb(239, 255, 0);
+    background-color: rgb(239, 255, 0);
+    color: rgb(75, 83, 9);
+    font-size: 15px;
 }
 
 #btnAddQuestionQuizOverzichtQuizPagina {
-    border: 2px solid rgb(110, 3, 110);
-    color: rgb(110, 3, 110);
+    border: 2px solid rgb(255, 32, 255);
+    background-color: rgb(255, 32, 255);
+    color: rgb(38, 0, 38);
+    font-size: 15px;
 }
 
 #btnShieldOptionOptiesKopenPagina,
@@ -266,21 +217,18 @@ div.page-content{
 
 #btnShieldOptionOptiesKopenPagina {
     margin-top: 10vh;
-    border: 2px solid rgb(0, 77, 0);
-    color: rgb(0, 77, 0);
-    background-color: rgb(69, 192, 69);
+    border: 2px solid rgb(0, 255, 0);
+    background-color: rgb(0, 255, 0);
 }
 
 #btnThunderOptionOptiesKopenPagina {
-    border: 2px solid rgb(184, 187, 0);
-    color: rgb(184, 187, 0);
-    background-color: rgb(237, 240, 105);
+    border: 2px solid rgb(251, 255, 0);
+    background-color: rgb(251, 255, 0);
 }
 
 #btnOponentMinus10SecOptionOptiesKopenPagina {
-    border: 2px solid rgb(226, 6, 6);
-    color: rgb(226, 6, 6);
-    background-color: rgb(212, 99, 99);
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
 }
 
 #btnCancelOptiesKopenPagina {
@@ -288,7 +236,7 @@ div.page-content{
 }
 
 #btnProfiel {
-    border: 2.5px solid rgb(57, 57, 109);
+    border: 2.5px solid white;
     border-radius: 50%;
     width: 12%;
     height: 6.5%;
@@ -297,7 +245,7 @@ div.page-content{
 }
 
 #btnVeranderProfielFotoProfielPagina {
-    border: 2.5px solid rgb(57, 57, 109);
+    border: 2.5px solid lightgray;
     border-radius: 50%;
     width: 46%;
     height: 12vh;
@@ -308,8 +256,9 @@ div.page-content{
 #btnVeranderWachtwoordProfielPagina,
 #btnBewaarWijzigingenProfielPagina,
 #btnCancelProfielPagina {
-    border: 3px solid rgb(95, 95, 95);
-    color: rgb(95, 95, 95);
+    border: 3px solid lightgray;
+    color: purple;
+    background-color: lightgray;
     margin-top: 2vh;
 }
 
@@ -317,8 +266,25 @@ div.page-content{
     margin-top: 16vh;
 }
 
-#imgLoginLoginPagina {
-    margin-top: 12vh;
+#btnGoBackGDPRPagina {
+    margin-top: 4vh;
+}
+
+#btnGDPRlinkProfielPagina {
+    margin-top: 30vh;
+}
+
+#btnNewGameResultaatPagina {
+    margin-top: 50vh;
+}
+
+#btnGoBackToHomePageResultaatPagina {
+    margin-top: 2vh;
+}
+
+#imgLogo {
+    margin-top: 7vh;
+    height: 25%;
 }
 
 #imgStandaardProfielFoto {
@@ -329,6 +295,7 @@ div.page-content{
 #divIdAantalMunten,
 #divLevelVanSpeler {
     font-weight: bold;
+    color: white;
 }
 
 #divIdAantalMunten {
@@ -341,4 +308,100 @@ div.page-content{
     float: right;
     margin-top: -4.5vh;
     margin-right: 24vw;
+}
+
+#pIdTitleGDPRPagina {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    color: white;
+}
+
+#pIdTitleResultaatPagina {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin-top: 12vh;
+}
+
+.pClassTitleGDPRPagina {
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+}
+
+.pClassTextGDPRPagina {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #d6c8c8;
+}
+
+a.button.popup-open {
+    color: black;
+    border: transparent;
+}
+
+/* ************************************************************************************************************ */
+/* *************************** MAKE CONTENT MOVE ************************************************************** */
+/* ************************************************************************************************************ */
+/*
+.shake {
+    color: white;
+    padding: 2%;
+    -webkit-animation: 1s linear 0s infinite alternate shake;
+    animation: 1s linear 0s infinite alternate shake;
+    animation-iteration-count: 6;
+}
+
+@-webkit-keyframes shake { 
+    from { margin-left: -20%; opacity: 0.4;} 
+    to { margin-left: 20%; opacity: 1;}
+}
+@keyframes shake {
+    from { margin-left: -20%; opacity: 0.4;}
+    to { margin-left: 20%; opacity: 1;}
+}
+*/
+/* ************************************************************************************************************ */
+/* *************************** MAKE CONTENT BLURRY ************************************************************ */
+/* ************************************************************************************************************ */
+/*
+.blurry {
+    color: white;
+    padding: 2%;
+    -webkit-animation: blurry 2s 0.1s  1 alternate;
+    animation: blurry 2s 0.15s  1 alternate;
+    animation-iteration-count: 6;
+}
+
+@-webkit-keyframes blurry { 
+    0% { opacity: 0.1; text-shadow: 0 0 10px lightgray, 0 0 10px lightgray; color: white;} 
+    50% { opacity: 0.2; text-shadow: 0 0 10px lightgray, 0 0 10px lightgray; color: white;}
+    100% { opacity: 0.3; text-shadow: 0 0 10px; color: white;}
+}
+@keyframes blurry {
+    0% { opacity: 0.1; text-shadow: 0 0 10px lightgray, 0 0 10px lightgray; color: white;}
+    50% { opacity: 0.2; text-shadow: 0 0 10px lightgray, 0 0 10px lightgray; color: white;}
+    100% { opacity: 0.3; text-shadow: 0 0 10px; color: white;}
+}
+*/
+/* ************************************************************************************************************ */
+/* *************************** MIRROR EFFECT CONTENT ********************************************************** */
+/* ************************************************************************************************************ */
+
+.mirror {
+    color: white;
+    padding: 2%;
+    -webkit-transform: rotateY(150deg); /* Safari prior 9.0 */
+    transform: rotateY(150deg); /* Standard syntax */
+    animation-iteration-count: 6;
+}
+
+@-webkit-keyframes mirror { 
+    0% { writing-mode: horizontal-rl;} 
+    100% { writing-mode: horizontal-rl;}
+}
+@keyframes mirror {
+    0% { writing-mode: horizontal-rl;}
+    100% { writing-mode: horizontal-rl;}
 }
