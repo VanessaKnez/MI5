@@ -33,6 +33,7 @@ export default () => (
         <a href="#"><button className="col button button-small button-outline" id="btnVeranderWachtwoordProfielPagina">CHANGE PASSWORD</button></a>
         <a href="#"><button className="col button button-small button-outline" id="btnBewaarWijzigingenProfielPagina">SAVE CHANGES</button></a>
         <a href="#"><button className="col button button-small button-outline" id="btnCancelProfielPagina">CANCEL</button></a>
+        <a href="/GDPR/"><button className="col button button-small button-outline" id="btnGDPRlinkProfielPagina">REMINDER GDPR</button></a>
 
         <a href="/resultaat/"><button className="col button button-small button-outline" id="btnTest">TEST</button></a>
       </Row>

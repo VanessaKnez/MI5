@@ -16,12 +16,12 @@ import {
   Col,
   Button
 } from 'framework7-react';
-import loginFoto from '../img/login.png'
+import logo from '../img/logo.png'
 
 export default () => (
   <Page name="reegistratie">
     {/* Page content */}
-    <img src={loginFoto} alt="foto login" id="imgLoginLoginPagina"></img>
+    <img src={logo} alt="foto login" id="imgLogo"></img>
       <form>
         <label>
           <input type="text" placeholder="USERNAME" id="inptLoginRegistratiePagina"/>

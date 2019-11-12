@@ -17,13 +17,13 @@ import {
   Button,
   img
 } from 'framework7-react';
-import loginFoto from '../img/login.png'
+import logo from '../img/logo.png'
 /*import background from '../img.background.jpg'*/
 
 export default () => (
   <Page name="home">
     {/* Page content */}
-    <img src={loginFoto} alt="foto login" id="imgLoginLoginPagina"></img>
+    <img src={logo} alt="foto login" id="imgLogo"></img>
       <form>
         <label>
           <input type="text" placeholder="LOGIN" id="inptLoginLoginPagina"/>
@@ -39,6 +39,7 @@ export default () => (
           <span className="checkmark"></span> REMEMBER ME
 </label>*/}
 
+      {/*
       <label class="item-checkbox item-content">
         <input type="checkbox" name="demo-checkbox" value="Books"></input>
           <i class="icon icon-checkbox"></i>
@@ -46,6 +47,7 @@ export default () => (
           <div class="item-title">REMEMBER ME</div>
         </div>
       </label>
+      */}
 
       <Row>
         <a href="/registratie/"><button href="/registratie/" className="col button button-small button-outline" id="btnRegistreerLoginPagina">REGISTER</button></a>
