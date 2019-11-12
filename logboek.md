@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 3TI (totaal 33h)
+# Logboek Vanessa Knez r0698813 3TI (totaal 43h30)
 
 ## week 1 (11h gewerkt)
 
@@ -71,7 +71,9 @@
 * nieuwe pagina's aangemaakt (profiel, resultaat,...)
 * gekeken hoe je animatie kan zetten als je een spel hebt gewonnen (confetti en sterretjes en dergelijke)
 
-## week 5 (xh gewerkt)
+## week 5 (4h30 gewerkt)
+
+### 22/10/2019
 * 4h30 gewerkt
 * proberen extra js file (op internet gevonden, om confetti te tonen op het scherm --> wanneer gebruiker spel heeft gewonnen) te implementeren
 * uiteindelijk toen de docent er was heb ik gezien dat ik de verkeerde functie aanriep om de confetti te laten starten
@@ -80,3 +82,17 @@
 
 https://forum.framework7.io/t/require-import-in-framework7-core/4550
 
+## week 7 (6h gewerkt)
+
+### 05/11/2019
+* 4h gewerkt
+* gewerkt aan de GDPR pagina
+* beetje CSS gedaan
+* pop up van framework7 proberen toe te voegen en aanpassen
+* knop in de pop up van framework7 die ik zelf heb toegevoegd testen door die proberen op te roepen, die wou in het begin niet werken en de functie kon voor een of ander manier niet opgeroepen worden, uiteindelijk is dit wel gelukt
+* de bedoeling van de zelf toegevoegde knop was om een optie te kunnen kopen, er stond al standaard een andere knop en dit was om de pop up te sluiten
+
+### 06/11/2019
+* 2h gewerkt
+* achtergrond van het spel veranderd
+* logo maken voor onze quiz
