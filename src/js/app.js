@@ -30,9 +30,68 @@ ReactDOM.render(
   document.getElementById('app'),
 );
 
+export function test() {
+	console.log("test");
+}
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////COPY FROM FRAMEWORK7 https://framework7.io/docs/popup.html ////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+var app = new Framework7();
+var $$ = Dom7;
 
-
+// DOM events for About popup
+$$('.popup-about').on('popup:open', function (e) {
+	console.log('About popup open');
+  });
+  $$('.popup-about').on('popup:opened', function (e) {
+	console.log('About popup opened');
+  });
+  
+  // Create dynamic Popup
+  var dynamicPopup = app.popup.create({
+	content: '<div class="popup">'+
+				'<div class="block">'+
+				  '<p>Popup created dynamically.</p>'+
+				  '<p><a href="#" class="link popup-close">Close me</a></p>'+
+				'</div>'+
+			  '</div>',
+	// Events
+	on: {
+	  open: function (popup) {
+		console.log('Popup open');
+	  },
+	  opened: function (popup) {
+		console.log('Popup opened');
+	  },
+	}
+  });
+  // Events also can be assigned on instance later
+  dynamicPopup.on('close', function (popup) {
+	console.log('Popup close');
+  });
+  dynamicPopup.on('closed', function (popup) {
+	console.log('Popup closed');
+  });
+  
+  // Open dynamic popup
+  $$('.dynamic-popup').on('click', function () {
+	dynamicPopup.open();
+  });
+  
+  // Create Popup with swipe to close
+  var swipeToClosePopup = app.popup.create({
+	el: '.popup-swipe-to-close',
+	swipeToClose: true,
+  });
+  
+  // Create Popup with swipe to close handler
+  var swipeToClosePopup = app.popup.create({
+	el: '.popup-swipe-to-close-handler',
+	swipeToClose: true,
+	swipeHandler: '.my-swipe-to-close-handler',
+  });
+  
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 var confetti = {
@@ -43,8 +102,8 @@ var confetti = {
 	gradient: false,	//whether to use gradients for the confetti particles
 	start: null,		//call to start confetti animation (with optional timeout in milliseconds, and optional min and max random confetti count)
 	stop: null,			//call to stop adding confetti
-	toggle: null,		//call to start or stop the confetti animation depending on whether it's already running
-	pause: null,		//call to freeze confetti animation
+	//toggle: null,		//call to start or stop the confetti animation depending on whether it's already running
+	//pause: null,		//call to freeze confetti animation
 	//resume: null,		//call to unfreeze confetti animation
 	//togglePause: null,	//call to toggle whether the confetti animation is paused
 	remove: null,		//call to stop the confetti animation and remove all confetti immediately
@@ -79,6 +138,10 @@ export function runAnimation() {
 		}
 		animationTimer = requestAnimationFrame(runAnimation);
 	}
+}
+
+export function stopConfetti() {
+	streamingConfetti = false;
 }
 
 (function() {
@@ -177,10 +240,6 @@ export function runAnimation() {
 		if (timeout) {
 			window.setTimeout(stopConfetti, timeout);
 		}
-	}
-
-	function stopConfetti() {
-		streamingConfetti = false;
 	}
 
 	function removeConfetti() {
