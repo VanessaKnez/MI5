@@ -96,3 +96,16 @@ https://forum.framework7.io/t/require-import-in-framework7-core/4550
 * 2h gewerkt
 * achtergrond van het spel veranderd
 * logo maken voor onze quiz
+
+## week 8 (xh gewerkt)
+
+### 12/11/2019
+* 7h gewerkt
+* confetti timeout werkt, heb het op een andere manier opgelost (de confetti.stop() na 3 seconden laten uitvoeren)
+* kleine CSS aanpassingen in de resulaat pagina
+* opzoeken van code om scherm te laten bewegen en water op het scherm te laten vallen
+* ik kan nu de content van een pagina doen bewegen van links naar rechts en wanneer de content links is is de opacitiy op 0.4 en rechts terug op 1
+* manier zoeken om de animation enkel 3sec te laten duren
+* met dit animation-iteration-count: 6 heb ik ervoor gezorgd dat het 6 keer in totaal links en rechts beweegt
+* gezocht hoe tekst spiegelen of van recht naar links lezen (tip van de docent: transform 3d)
+* nu aan het zoeken hoe na enkele seconden de tekst terug normaal te zetten in plaats van gespiegeld of van rechts naar links
