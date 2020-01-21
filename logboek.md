@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 3TI (totaal 122h30)
+# Logboek Vanessa Knez r0698813 3TI (totaal 162h30)
 
 ## week 1 (11h gewerkt)
 
