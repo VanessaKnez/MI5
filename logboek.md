@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 3TI (totaal 43h30)
+# Logboek Vanessa Knez r0698813 3TI (totaal 122h30)
 
 ## week 1 (11h gewerkt)
 
@@ -97,7 +97,7 @@ https://forum.framework7.io/t/require-import-in-framework7-core/4550
 * achtergrond van het spel veranderd
 * logo maken voor onze quiz
 
-## week 8 (xh gewerkt)
+## week 8 (7h gewerkt)
 
 ### 12/11/2019
 * 7h gewerkt
@@ -109,3 +109,99 @@ https://forum.framework7.io/t/require-import-in-framework7-core/4550
 * met dit animation-iteration-count: 6 heb ik ervoor gezorgd dat het 6 keer in totaal links en rechts beweegt
 * gezocht hoe tekst spiegelen of van recht naar links lezen (tip van de docent: transform 3d)
 * nu aan het zoeken hoe na enkele seconden de tekst terug normaal te zetten in plaats van gespiegeld of van rechts naar links
+
+## week 9 (6h gewerkt)
+
+### 19/11/2019
+* 4h gewerkt
+* opzoeken van quiz vragen
+* quiz vragen zijn hiervan gehaald: https://www.quiz-questions.net/
+* de vragen heb ik in een word document gezet en heb ervoor gezorgd dat ik altijd 20 vragen per categorie had, als ik er meer had dan waren ze ook bewaard om ze later misschien toe te voegen indien we niet genoeg vragen hadden
+
+### 20/11/2019
+* 1h gewerkt
+* verder aan de quiz vragen gewerkt (ze in het document zetten met antwoorden)
+
+### 21/11/2019
+* 1h gewerkt
+* afronden van quiz vragen in het doucment te zetten
+
+## week 11 (2h gewerkt)
+
+### 03/12/2019
+* 2h gewerkt
+* de quiz vragen die ik in een word document had gezet nu in arrays zetten
+* hierbij hoorde ook foute antwoorden te vinden maar die "juist" waren, bv als er een vraag was van de beste bier brouwerij dat ik dan bier brouwerijken ging opzoeken om ze toe te voegen als mogelijke antwoorden maar die fout waren (en dit nam toch ook wat tijd)
+
+## week 12 (3h gewerkt)
+
+### 10/12/2019
+* 3h gewerkt
+* verder bezig met quiz vragen en foute antwoorden opzoeken
+
+## week 14 (5h gewerkt)
+
+### 26/12/2019
+* 1h gewerkt
+* begin van documentatie gemaakt
+
+### 27/12/2019
+* 3h gewerkt
+* aan documentatie verder gewerkt
+* profiel foto positie aangepast
+* opties knoppen updaten (kleur, css, popup tekst en popup mooier maken)
+* audits nagekeken en een paar zaken proberen te verbeteren
+
+### 28/12/2019
+* 1h gewerkt
+* aan documentatie verder gewerkt
+
+### 29/12/2019
+* 2h30 gewerkt
+* aan documentatie verder gewerkt
+
+## week 16 (19h gewerkt)
+
+### 31/12/2019
+* 7h gewerkt
+* opgezocht hoe de manifestat werkt en hoe doen werken
+* paar zaken geprobeerd maar elke keer error
+
+### 01/01/2020
+* 12h gewerkt
+* quiz vragen in array gezet
+* "goede" foute antwoorden vinden (waar mensen beginnen te twijfelen)
+* error bij het lezen van de array van de quiz proberen op te lossen
+
+### 02/01/2020
+* 10h gewerkt
+* nog steeds verder gezocht naar de error van de array van de vragen
+* css proberen goed te zetten
+* nog paar kleine error problemen opzoeken en verbeteren
+
+## week 17 (19h gewerkt)
+
+### 07/01/2020
+* 11h gewerkt
+* audits gedaan en proberen zo hoog mogelijk cijfer te krijgen, lang naar gezocht naar sommige zaken die uiteindelijk niet opgelost konden worden want het probleem was niet duidelijk
+* bij SEO was er iets met een robots.txt file dat ervoor zorgde dat er geen 100 was maar daar niet gevonden hoe weg te krijgen, toch geprobeerd
+
+### 08/01/2020
+* 8h gewerkt
+* audits verder doen
+* css aanpassen, nu is er een timer en beweegt het soms dus moeilijk voor css
+
+## week 18 (8h gewerkt)
+
+### 19/01/2020
+* 8h gewerkt
+* vragen in array gezet
+* kleine CSS aanpassingen
+
+## week 19 (10h gewerkt)
+
+### 20/01/2020
+* 10h gewerkt
+* gewerkt aan de css
+* gewerkt aan de quiz vragen
+* manifest gewerkt
